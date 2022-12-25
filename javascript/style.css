@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightblue;
+    color:white;
+    font-size: 25px;
+    margin:10px;
+    padding: 10px;
+ 
+}
+
+.btn{
+    background-color:green;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height:10vh;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: green;
+    color:white;
+}
+.main-page{
+    width:100%;
+    font: 30px;
+    margin: 10px;
+    display: flex;
+}
+.text{
+    width:50%;
+     background-color:lightskyblue; 
+    color:white;
+    height:80vh;
+    padding: 10px;
+    float:left;
+    box-shadow: 1px 1px 1px black;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space:pre;
+    outline: none;
+
+ 
+    
+   
+
+}
+.fra{
+    background-color:whitesmoke;
+    color:white;
+    height:80vh;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
