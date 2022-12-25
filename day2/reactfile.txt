@@ -1,0 +1,5 @@
+Install the React 
+Auto tags
+create components in React
+how to connect the html file to React
+learn to few topics in type script
