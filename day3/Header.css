@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Header{
+    display: flex;
+    background-color: aquamarine;
+    padding: 10px 15px;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    margin-bottom: 10px;
+    z-index: 99;
+}
+.Header-left{
+    display: flex;
+    padding: 10px 15px;
+    margin-left:40px;
+
+}
+.header-icon div{
+    font-size: xx-large;
+}
+.header-icon{
+    height: 25px;
+    margin-right: 20px;
+    margin: 20px;
+
+}
+.header-search{
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 0px;
+    width: 220px;
+    height:35px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+.header-search div{
+    font-size: xx-large;
+}
+.header-search input{
+    border: 0px;
+    background-color: transparent;
+    outline: 0px;
+    min-width:200px;
+}
+
+
+
+.Header-middle{
+    display: flex;
+}
+.Header-middle-icon{
+  font-size: small;
+  justify-items: center;
+  justify-content: space-around;
+  margin:20px;
+  height: 25px;
+}
+.Header-middle-icon div{
+    font-size: x-large;
+    text-align: center;
+}
+.Header-right{
+    font-size: small;
+    justify-items: center;
+    justify-content: space-around;
+    margin:20px;
+    margin-left: 120px;
+    height:25px;
+}
+.Header-right div{
+    font-size:large;
+}
+.anchor{
+    font-size: small;
+    color:black;
+    height: 25px;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 25px;
+
+   
+
+
+}
