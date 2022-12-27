@@ -36,7 +36,7 @@ function Header() {
       <div>< AiOutlineHome/ ></div> Home
      </div>
       <div className='Header-middle-icon'>
-      <div><BsPersonPlusFill></BsPersonPlusFill></div>Mynetwork</div>
+      <div ><BsPersonPlusFill></BsPersonPlusFill></div>Mynetwork</div>
       <div className='Header-middle-icon'>
       <div><BsBagPlusFill></BsBagPlusFill></div>Job</div>
       <div className='Header-middle-icon'>
@@ -60,7 +60,9 @@ function Header() {
 
 
       <div className='Header-right'>
+        <div className='work'>
       <div><SiRos></SiRos></div>Work</div>
+      </div>
       <a href="#" className='anchor'>Try premium for free</a>
      
 
