@@ -1,0 +1,39 @@
+
+ .title1{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(31, 31, 33);
+    color: azure;
+    
+} 
+
+
+.silde-image1{
+    display: flex;
+    background-color: rgb(31, 31, 33);
+    
+    justify-content: space-around;
+ 
+
+}
+
+ .silde-image1 img{
+    width:200px;
+    height:200px;
+    display: flex;
+    border-radius: 10px;
+    background-size: cover;
+    margin:15px;
+    background-color: rgb(31, 31, 33);
+ 
+    
+}
+.silde-image1 img:hover{
+    opacity: .8;
+    box-shadow: 0px 0px 20px 3px;
+    transform: scale(1.25);
+    z-index: 1;
+    border-radius: 20px;
+    border: 1px solid black;
+
+} 
