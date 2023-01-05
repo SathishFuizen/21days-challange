@@ -1,0 +1,111 @@
+.Header{
+    display: flex;
+    width:100%;
+    background-color: rgb(31, 31, 33);
+    
+    color:white ;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    &__Header-left{
+        ul{
+        display: flex;
+            flex:2;
+            list-style-type: none;
+            padding: 5px;
+            margin-left: 30px;
+            font-size: 20px;
+            align-items: center;
+        }
+        li{
+            margin:5px;
+            list-style-type: none; 
+
+        }
+        &__Movie{
+            color: white;
+            text-decoration: none;
+
+        }
+
+
+
+    }
+    &__Header-right{
+        display: flex;
+        padding: 5px;
+        margin:5px;
+        font-size: 20px;
+        &__right{
+            position:relative;
+           
+            &__search{
+                background-color:black;
+                border: none;
+                outline: none;
+                margin: 20px;
+                border-bottom:1px solid white ;
+                // color:blue;
+               
+
+                }
+                &__icon{
+                    position:absolute;
+                    bottom: 35px;
+                    left:168px
+                
+                  
+
+            }
+
+        }
+        &__last{
+            margin-left: 100px;
+            margin: 25px;
+            font-size: 10px;
+        }
+        &__logo{
+            margin:20px ;
+            font-size: x-large;
+            ul{
+            list-style-type: none;
+            
+            flex-direction: column;
+            z-index: 999;
+            position:absolute;
+            right: 15px;
+            margin-top: 10px;
+            font-size: 15px;
+            background-color:rgb(31, 31, 33) ;
+            display: block;
+            height:100px;
+            line-height: 30px;
+            border-radius: 5px;
+            li{
+                margin-right: 25px;
+            }
+            :hover{
+                background-color: aliceblue;
+                color: black;
+            }
+    
+            }
+
+        }
+
+
+    }
+
+}
+
+// .changeSportcolor{
+//     background-color: red;
+// }
+// .changelightsport{
+//     background-color:green;
+// }   
+     
+
+
+
+

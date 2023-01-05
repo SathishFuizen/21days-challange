@@ -1,7 +1,7 @@
 import React from 'react'
-import Body from '../Components/Body'
-import SubSlides from '../Components/Slides'
-import Slide2 from '../Components/Slide2'
+import Body from '../Components/Body/Body'
+import SubSlides from '../Components/Slider1/Slides'
+import Slide2 from '../Components/Slider2/Slide2'
 
 const Home = () => {
   return (

@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext,useState } from 'react'
 import { Slide } from "react-slideshow-image"
 import 'react-slideshow-image/dist/styles.css'
 import "./Slide2.css"
+import { ThemeContext } from '../../Context/ThemeContextProvider'
 
 const Slide2 = () => {
+
+ const {toggle,togglefunction}=useContext(ThemeContext);
     const properties={
         duration: 5000,
         transitionDuration: 500,
@@ -11,8 +14,10 @@ const Slide2 = () => {
     }
   return (
     <div>
+     
         <div className='title1'>Popualr Action Movies</div>
-        <Slide {...properties}>
+    
+        <Slide {...properties}> 
             <div className='silde-image1'>
             <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9239/1389239-v-b354c74533f6" alt="first"></img>
             <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/896/580896-v" alt="sceond"></img>
@@ -28,6 +33,7 @@ const Slide2 = () => {
 
 
         </Slide>
+        
     </div>
   )
 }

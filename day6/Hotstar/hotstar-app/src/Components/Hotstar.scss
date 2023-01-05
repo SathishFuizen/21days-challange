@@ -2,8 +2,10 @@
     display: flex;
     width:100%;
     background-color: rgb(31, 31, 33);
-    color:white;
+    color:pink;
     justify-content: space-around;
+    height: 60px;
+    align-items: center;
     .Header-left{
         ul{
             display: flex;
@@ -12,12 +14,17 @@
             padding: 5px;
             margin-left: 30px;
             font-size: 20px;
+            align-items: center;
             li{
                 margin:5px;
                 list-style-type: none;   
             }
+           .Movie{
+            color: white;
+            text-decoration: none;
+           }
             .color{
-                color:red;
+                color:orange;
                 text-align: center;
             }
 
@@ -45,7 +52,7 @@
             .icon{
               
                position:absolute;
-               bottom: 50px;
+               bottom: 23px;
                left:160px
             
         }  
@@ -73,7 +80,7 @@
         right: 15px;
         margin-top: 30px;
         font-size: 15px;
-        background-color: rgb(31, 31, 33) ;
+        background-color: rgb(77, 9, 236) ;
         display: block;
         height:100px;
         line-height: 30px;
@@ -86,9 +93,16 @@
         }
 
     }
-
+#lisports{
+    color:bisque;
+}
+.changeSportcolor{
+    background-color: red;
+}
+.changelightsport{
+    background-color:green;
+}   
     
-
-
-
-
+   
+   
+    
