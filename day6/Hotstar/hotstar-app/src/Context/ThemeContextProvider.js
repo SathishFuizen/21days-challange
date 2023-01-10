@@ -2,21 +2,21 @@ import React,{createContext,useEffect,useState} from 'react'
 
  const ThemeContext=createContext();
 const ThemeContextProvider = (props) => {
-    const [toggle,setToggle]=useState(false);
+    const [toggle,setToggle]=useState();
 
    const togglefunction=()=>{
     setToggle(toggle=>!toggle);
    }
-    useEffect(()=>{
-      if(toggle)
-    { document.body.style.backgroundColor="#ffff";
+    // useEffect(()=>{
+    //   if(toggle)
+    // { document.body.style.backgroundColor="#ffff";
 
-      }
-      else{
-        document.body.style.backgroundColor="#ffffff";
-      }
+    //   }
+    //   else{
+    //     document.body.style.backgroundColor="#ffffff";
+    //   }
 
-    },[toggle]);
+    // },[toggle]);
   
   return (
     <div>
